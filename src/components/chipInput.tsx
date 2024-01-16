@@ -1,7 +1,5 @@
-// ChipInput.tsx
-
 import React, { useState, useEffect, useRef, KeyboardEvent, ChangeEvent, MouseEvent } from 'react';
-import './chipInput.css'; // Include your CSS file here
+import './chipInput.css'; 
 
 interface ChipInputProps {
   items: { name: string; email: string }[];
