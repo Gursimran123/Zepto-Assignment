@@ -118,7 +118,8 @@ useEffect(() => {
                   className={`suggestion ${highlightedIndex === index ? 'highlighted' : ''}`}
                   onClick={() => handleItemSelect(item)}
                 >
-                  {item.name} ({item.email})
+                  <p>{item.name}</p>
+                  <p>{item.email}</p>
                 </div>
               ))}
           </div>
